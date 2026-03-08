@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1128px;
+    margin: 0 auto;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.logo{
+    width: 125px;
+    height: 48px;
+}
+.menu{
+    width: 48px;
+    height: 48px;
+}
+.hero-content{
+    background-color: #FEEAE9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.hero-text *{
+    margin-bottom: 15px;
+}
+.hero-text{
+    width: 450px;
+    padding: 20px;
+
+}
+.hero-text h2{
+    font-size: 40px;
+    
+}
+.hero-text h3{
+    font-size: 40px;
+    color: #FF136F;
+}
+.hero-text P{
+    font-size: 16px;
+    color: #4E4E4E;
+    line-height: 22px;
+}
+.hero button{
+    background-color: #FF136F;
+    border: none;
+    padding: 12px 18px;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.hero-image{
+   width: 400px;
+}
+/* categories */
+.categories{
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+.categories{}
+.categories-box{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.box1{
+    background-color: #FF9C35;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* gap: 35px; */
+    padding: 20px;
+    border-radius: 10px;
+    width: 380px;
+    
+}
+.box1 h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+    font-weight: medium;
+    color: #FEEAE9;
+}
+.box1 img{
+   width: 60px;
+    height: 70px;
+}
+/* shoes */
+.Shoes *{
+    margin-bottom: 10px;
+}
+.Shoes{
+    margin-bottom: 40px;
+}
+.Shoes-box{
+    width: 360px;
+    border: 1px solid #929292;
+    text-align: center;
+    padding: 7px;
+    border-radius: 10px;
+}
+.shoes-image img{
+    width: 280px;
+    
+}
+.shoes-text h3{
+    color:#1F1F1F ;
+    font-size: 24px;
+    
+
+}
+.shoes-text P{
+    font-size: 16px;
+    color: #4E4E4E;
+}
+.shoes-text button{
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 14px 20px;
+    border-radius: 8px;
+}
+.shoes-content{
+    display: flex;
+    gap: 17px;
+}
+.backpack *{
+    margin-bottom: 10px;
+}
+.backpack{
+    margin-bottom: 40px;
+}
+.backpack-content{
+    display: flex;
+    gap: 17px;
+}
+.backpack-card{
+    width: 360px;
+    border: 1px solid #929292;
+    text-align: center;
+    padding: 7px;
+    border-radius: 10px;
+}
+.backpack-image img{
+     width: 200px;
+}
+.backpack-text h3{
+     color:#1F1F1F ;
+    font-size: 24px;
+    
+}
+.backpack-text p{
+     font-size: 16px;
+    color: #4E4E4E;
+}
+.backpack-text button{
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 14px 20px;
+    border-radius: 8px;
+}
+
